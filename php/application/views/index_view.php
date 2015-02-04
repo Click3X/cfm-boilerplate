@@ -46,13 +46,21 @@
         <!--[if (gt IE 9)|!(IE)]><!--><body><!--<![endif]-->
 
         <div class="site-wrapper">
-            <div id="navigation-container" class="cfm_navigation">
-                <ul><li><a data-navigate-to="home" href="home">HOME</a></li><li><a data-navigate-to="work" href="work">WORK</a></li><li><a data-navigate-to="about" href="home">ABOUT</a></li><li><a data-navigate-to="people" href="home">PEOPLE</a></li><li><a data-navigate-to="project" href="home">PROJECT</a></li></ul>
+            <div id="header-container">
+                <div id="main-navigation" class="cfm_navigation">
+                    <ul><li><a data-navigate-to="home" href="home">HOME</a></li><li><a data-navigate-to="work" href="work">WORK</a></li><li><a data-navigate-to="about" href="home">ABOUT</a></li><li><a data-navigate-to="people" href="home">PEOPLE</a></li><li><a data-navigate-to="project" href="home">PROJECT</a></li></ul>
+                </div>
             </div>
 
             <div id="page-container">
                 <div id="page-content">
                     <?php $this->load->view( "pages/".$page_id."_view" ); ?>
+                </div>
+            </div>
+
+            <div id="footer-container">
+                <div id="footer-navigation" class="cfm_navigation">
+                    <ul><li><a data-navigate-to="home" href="home">HOME</a></li><li><a data-navigate-to="work" href="work">WORK</a></li><li><a data-navigate-to="about" href="home">ABOUT</a></li><li><a data-navigate-to="people" href="home">PEOPLE</a></li><li><a data-navigate-to="project" href="home">PROJECT</a></li></ul>
                 </div>
             </div>
         </div>

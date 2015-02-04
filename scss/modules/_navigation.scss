@@ -24,12 +24,35 @@
 				padding:4px 22px 0 22px;
 				outline:none !important;
 				border-radius: 4px;
+			}
 
-				&:hover, &.active{
+			&:hover, &.active{
+				a{
 					background-color:#EEE;
 					color:#AAA;
 				}
 			}
 		}
 	}
+
+	&#footer-navigation{
+		ul{
+			li{
+				a{
+					line-height: 20px;
+					color: #666;
+					padding:4px 8px 0 8px;
+					background-color:transparent;
+				}
+
+				&:hover, &.active{
+					a{
+						background-color:#EEE;
+						color:#AAA;
+					}
+				}
+			}
+		}
+	}
 }
+

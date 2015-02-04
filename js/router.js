@@ -5,8 +5,9 @@ define([
   'pages/work_view',
   'pages/about_view',
   'pages/people_view',
-  'pages/project_view'
-], function (Backbone, PageCollection, HomeView, WorkView, AboutView, PeopleView, ProjectView){
+  'pages/project_view',
+  'modules/navigation/navigation_view'
+], function (Backbone, PageCollection, HomeView, WorkView, AboutView, PeopleView, ProjectView, NavigationView){
   var Router   = Backbone.Router.extend({
     initialize:function(){
       var _t = this;
@@ -21,11 +22,16 @@ define([
         new ProjectView({collection:_t.page_collection})
       ];
 
-      //TODO: CREATE NAV MODULE
-      $("a[data-navigate-to]").click(function(event){
-        event.preventDefault();
-        
-        router.navigate( $(this).attr("data-navigate-to"), true );
+      /** ===== BUILD NAVIGATIONS ===== **/
+      _t.navigations = [];
+      $(".cfm_navigation").each(function(i, _el){
+        var navigation = new NavigationView({
+          id:_el.getAttribute("id"), 
+          el:_el,
+          page_collection:_t.page_collection
+        });
+
+        _t.navigations.push(navigation);
       });
 
       this.start();
