@@ -1,0 +1,24 @@
+/* ==========================================================================
+    Includes. Don't add css here.
+========================================================================== */
+
+@import 'normalize.scss';
+@import 'helpers.scss';
+@import 'debug.scss';
+@import 'mixins.scss';
+@import 'base.scss';
+
+/** -------------------- 
+Pages ------------------
+---------------------**/
+@import 'pages/home.scss';
+@import 'pages/about.scss';
+@import 'pages/work.scss';
+@import 'pages/people.scss';
+
+/** -------------------- 
+Modules -----------------
+---------------------**/
+@import 'modules/navigation.scss';
+
+@import 'print.scss';
