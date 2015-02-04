@@ -18,7 +18,7 @@
 $config['base_url']	= '';
 $config['root_directory'] = 'boilerplate/';
 $config['ga_account'] = 'XXXXXXXX';
-$config['debug'] = false;
+$config['debug'] = true;
 
 /*
 |--------------------------------------------------------------------------
