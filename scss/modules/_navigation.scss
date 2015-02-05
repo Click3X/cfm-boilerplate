@@ -2,7 +2,7 @@
     CFM Navigation Styles
 ===============================*/
 
-.cfm_navigation
+.cfm-navigation
 {
 	display:block;
 	vertical-align:middle;
@@ -13,55 +13,27 @@
 	ul{
 		display: inline-block;
 		list-style: none;
-		padding:0; margin:-2px 0 0 -2px;
+		padding:0; margin:-2px 0 0 -10px;
 
 		@include clearfix();
 
 		li{
 			display: inline-block;
-			margin:0 0 2px 2px;
+			margin:0 0 2px 10px;
 
 			a{
 				display: inline-block;
-				line-height: 28px;
+				line-height: 20px;
 				text-decoration: none;
-				background-color:#DDD;
-				color: #888;
-				padding:1px 18px 0 18px;
+				color: #666;
+				padding:3px 0 1px 0;
 				outline:none !important;
-				border-radius: 3px;
 			}
 
 			&:hover, &.active{
 				a{
-					background-color:#EEE;
 					color:#AAA;
-				}
-			}
-		}
-	}
-
-	&#footer-navigation{
-		ul{
-			margin:-2px 0 0 -10px;
-
-			li{
-				margin:0 0 2px 10px;
-
-				a{
-					line-height: 20px;
-					color: #666;
-					padding:3px 0 1px 0;
-					background-color:transparent;
-					border-radius:0;
-				}
-
-				&:hover, &.active{
-					a{
-						background-color:#FFF;
-						color:#AAA;
-						border-bottom:1px solid #AAA;
-					}
+					border-bottom:1px solid #AAA;
 				}
 			}
 		}

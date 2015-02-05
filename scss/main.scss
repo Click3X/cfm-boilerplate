@@ -9,6 +9,13 @@
 @import 'mixins.scss';
 @import 'fonts.scss';
 @import 'base.scss';
+@import 'print.scss';
+
+/** -------------------- 
+Modules -----------------
+---------------------**/
+@import 'modules/navigation.scss';
+@import 'modules/project_gallery.scss';
 
 /** -------------------- 
 Pages ------------------
@@ -17,10 +24,3 @@ Pages ------------------
 @import 'pages/about.scss';
 @import 'pages/work.scss';
 @import 'pages/people.scss';
-
-/** -------------------- 
-Modules -----------------
----------------------**/
-@import 'modules/navigation.scss';
-
-@import 'print.scss';

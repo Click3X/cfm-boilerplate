@@ -29,7 +29,7 @@ define([
 
       /** ===== BUILD NAVIGATIONS ===== **/
       _t.navigations = [];
-      $(".cfm_navigation").each(function(i, _el){
+      $(".cfm-navigation").each(function(i, _el){
         var navigation = new NavigationView({
           id:_el.getAttribute("id"), 
           el:_el,

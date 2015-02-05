@@ -15,19 +15,19 @@ h1,h2,h3,h4,h5,h6,strong,b{
 
 #header-container{
 	text-align:center;
-	margin: 0 0 40px 0;
+	margin:0 0 60px 0;
 
 	@media( min-width:$tablet-small ){ text-align:left; }
 
 	div.logo{
 		display: inline-block;
-		margin:-4px 0 14px 0;
+		margin:0 0 14px 0;
 		vertical-align: middle;
 		position: relative;
 		width:20px;
 		height:40px;
 
-		@media( min-width:$tablet-small ){ margin:-4px 10px 0 0; }
+		@media( min-width:$tablet-small ){ margin:0 20px 0 0; }
 
 		a{
 			position: absolute;

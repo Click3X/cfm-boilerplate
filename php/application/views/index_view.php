@@ -49,8 +49,8 @@
         <div class="site-wrapper">
             <div id="header-container">
                 <div id="logo" class="logo"><a href="<?= base_url(); ?>"></a></div>
-                <div id="main-navigation" class="cfm_navigation">
-                    <ul><li><a data-navigate-to="work" href="<?= base_url(); ?>work">WORK</a></li><li><a data-navigate-to="about" href="<?= base_url(); ?>home">ABOUT</a></li><li><a data-navigate-to="people" href="<?= base_url(); ?>home">PEOPLE</a></li><li><a data-navigate-to="project" href="<?= base_url(); ?>home">PROJECT</a></li></ul>
+                <div id="main-navigation" class="cfm-navigation">
+                    <ul><li><a data-navigate-to="work" href="<?= base_url(); ?>work">WORK</a></li><li><a data-navigate-to="about" href="<?= base_url(); ?>home">ABOUT</a></li><li><a data-navigate-to="people" href="<?= base_url(); ?>home">PEOPLE</a></li></ul>
                 </div>
             </div>
 
@@ -61,7 +61,7 @@
             </div>
 
             <div id="footer-container">
-                <div id="footer-navigation" class="cfm_navigation">
+                <div id="footer-navigation" class="cfm-navigation">
                     <ul><li><a data-navigate-to="home" href="<?= base_url(); ?>home">HOME</a></li><li><a data-navigate-to="work" href="<?= base_url(); ?>work">WORK</a></li><li><a data-navigate-to="about" href="<?= base_url(); ?>home">ABOUT</a></li><li><a data-navigate-to="people" href="<?= base_url(); ?>home">PEOPLE</a></li><li><a data-navigate-to="project" href="<?= base_url(); ?>home">PROJECT</a></li></ul>
                 </div>
             </div>
