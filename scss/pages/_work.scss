@@ -8,9 +8,10 @@
  	ul.project-list{
  		list-style: none;
  		padding:0; margin:-2px 0 0 -2px;
+ 		
  		@include clearfix();
 
- 		li.project{
+ 		li{
  			float:left;
  			width:100%;
 
@@ -26,7 +27,7 @@
 	 				padding-bottom:100%;
 	 				background-color: #EEE;
 	 				position: relative;
-	 				height: 0;
+	 				height:0;
 
 	 				&:link,&:visited{
 	 					color: #999;
@@ -35,8 +36,7 @@
 
 	 				div.project-label{
 	 					position: absolute;
-	 					height: 100%;
-	 					width: 100%;
+	 					height: 100%; width: 100%;
 	 					text-align: center;
 
 	 					&:before{
@@ -44,7 +44,7 @@
 						 	display: inline-block;
 						 	height: 100%;
 						 	vertical-align: middle;
-						 	margin-right: -.2em;
+						 	margin: 0 -.2em 0 0;
 	 					}
 
 	 					div.project-label-inner{

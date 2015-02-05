@@ -36,6 +36,8 @@ define([
 
 			this.onready();
 		},
+		onready:function(){/*overridden*/},
+		onready:function(){/*overridden*/},
 		close:function(){
 			this.onclose();
 		}

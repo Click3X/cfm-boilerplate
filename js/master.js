@@ -14,7 +14,7 @@ while (length--){
 }
 
 /*----- add object keys if needed-------*/
-if (!Object.keys) {
+if(!Object.keys) {
   Object.keys = function(obj) {
     var keys = [];
 
@@ -30,7 +30,7 @@ if (!Object.keys) {
 /*----- disable pointer events on scroll-------*/
 var scrolltimer;
 
-window.addEventListener('scroll', function() {
+window.addEventListener('scroll', function(){
     clearTimeout(scrolltimer);
 
     if(document.body.className.indexOf('disable-hover') == -1) {

@@ -13,7 +13,8 @@ define([
 			_t.buildButtons();
 
 			_t.page_collection.on("change:active",function(_model){
-				_t.collection.get(_model.id).set( "active", _model.get("active") );
+				var button_model = _t.collection.get(_model.id);
+				if(button_model) button_model.set( "active", _model.get("active") );
 			});
 		},
 		buildButtons:function(){

@@ -22,6 +22,11 @@ define([
         new ProjectView({collection:_t.page_collection})
       ];
 
+      $("#logo a").click(function(event){
+        event.preventDefault();
+        router.navigate("home",true);
+      })
+
       /** ===== BUILD NAVIGATIONS ===== **/
       _t.navigations = [];
       $(".cfm_navigation").each(function(i, _el){

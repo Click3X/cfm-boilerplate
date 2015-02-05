@@ -6,11 +6,46 @@ html{
 	font-size: 14px;
 }
 h1,h2,h3,h4,h5,h6,strong,b{
-	font-family:"gotham-Book";
+	font-family:"gotham-book";
 }
 
 .site-wrapper{
 	padding:20px;
+}
+
+#header-container{
+	text-align:center;
+
+	@media( min-width:$tablet-small ){ text-align:left; }
+
+	div.logo{
+		display: inline-block;
+		margin:-4px 0 14px 0;
+		vertical-align: middle;
+		position: relative;
+		width:40px;
+		height:80px;
+
+		@media( min-width:$tablet-small ){ margin:-4px 10px 0 0; }
+
+		a{
+			position: absolute;
+			left:0;
+			top:0;
+			width:100%;
+			height: 100%;
+			background-image: url( ../img/logo_1x.jpg );
+			background-repeat:no-repeat;
+
+			@include image-2x( "../img/logo_2x.jpg", 40px, 80px );
+		}
+	}
+}
+
+#page-container{
+	text-align:center;
+	
+	@media( min-width:$tablet-small ){ text-align:left; }
 }
 
 #footer-container{
