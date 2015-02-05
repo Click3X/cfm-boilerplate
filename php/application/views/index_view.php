@@ -41,6 +41,7 @@
             var root_dir    = "<?= $this->config->item('root_directory'); ?>";
             var debug       = "<?= $this->config->item('debug'); ?>";
         </script>
+        <!--[if (lt IE 9)]><!--><script src="<?= base_url(); ?>js/vendor/respond.min.js"></script><!--<![endif]-->
     </head>
         <!--[if IE 8 ]><body class="ie8"><![endif]-->
         <!--[if (gt IE 9)|!(IE)]><!--><body><!--<![endif]-->
