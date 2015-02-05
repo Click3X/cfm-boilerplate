@@ -1,3 +1,2 @@
-<h1>HOME</h1>
 <h2>This is ClickFire Media's Amazing Require, Backbone, CodeIgniter and Sass Boilerplate.</h2>
 <p>Before they sold out Truffaut cronut, meh four dollar toast listicle viral tilde selvage tofu. Blue Bottle iPhone shabby chic pour-over semiotics skateboard, single-origin coffee leggings. Leggings swag fixie craft beer. Banksy freegan roof party mumblecore, VHS cray butcher umami sartorial kitsch Etsy post-ironic locavore. Synth meditation deep v, Brooklyn selvage fingerstache forage freegan XOXO put a bird on it migas normcore artisan farm-to-table hella. Keffiyeh kale chips Echo Park, Intelligentsia master cleanse flannel squid drinking vinegar stumptown roof party. Chillwave American Apparel ethical banjo, umami wolf Banksy banh mi put a bird on it.</p>

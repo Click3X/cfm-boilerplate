@@ -1,4 +1,4 @@
-<h1>OUR WORK</h1>
+<h2>OUR WORK</h2>
 <p>Kale chips meditation cronut cold-pressed. Wayfarers plaid readymade sriracha, Carles mixtape salvia ugh sartorial authentic XOXO. Fixie bitters brunch you probably haven't heard of them keytar. Bespoke pour-over polaroid, fashion axe lomo taxidermy Pitchfork meh chambray dreamcatcher squid DIY Shoreditch Vice. Gastropub roof party Truffaut semiotics keffiyeh. Mustache Brooklyn distillery PBR&B ethical roof party four dollar toast, health goth High Life Wes Anderson selvage hoodie whatever fixie. 3 wolf moon Wes Anderson seitan, Tumblr put a bird on it readymade pickled tattooed occupy.</p>
 <div class="project-container">
 	<ul class="project-list">
