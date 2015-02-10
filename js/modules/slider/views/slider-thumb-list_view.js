@@ -8,7 +8,6 @@ define([
 			var _t = this;
 
 			_t.views = [];
-			_t.collection = new Backbone.Collection();
 
 			_t.thumb_els = this.$el.children("li");
 			_t.ar = _t.el.getAttribute("data-aspectratio");
@@ -17,11 +16,11 @@ define([
 			_t.thumb_els.each(function(i, _el){
 				var thumb = new SliderThumbView({
 					id: i, el: _el, ar: _t.ar,
-					thumbWidth: (100/_t.thumb_els.length) + "%"
+					thumbWidth: (100/_t.thumb_els.length) + "%",
+					model:_t.collection.get(i)
 				});
 
 				_t.views.push(thumb);
-				_t.collection.push(thumb.model);
 			});
 
 			this.el.style.width =  _t.thumb_els.length*(100/_t.thumbs_shown) + "%";

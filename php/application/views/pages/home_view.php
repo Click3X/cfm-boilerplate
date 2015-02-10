@@ -8,7 +8,7 @@
           <div class="cfm-slider-inner">
             <a href="#">
               <div class="cfm-slider-label">
-                  <div class="cfm-slider-label-inner">Slider Slide</div>
+                  <div class="cfm-slider-label-inner">Slider Slide 0</div>
               </div>
             </a>
           </div>
@@ -17,7 +17,7 @@
           <div class="cfm-slider-inner">
             <a href="#">
               <div class="cfm-slider-label">
-                  <div class="cfm-slider-label-inner">Slider Slide</div>
+                  <div class="cfm-slider-label-inner">Slider Slide 1</div>
               </div>
             </a>
           </div>
@@ -26,7 +26,7 @@
           <div class="cfm-slider-inner">
             <a href="#">
               <div class="cfm-slider-label">
-                  <div class="cfm-slider-label-inner">Slider Slide</div>
+                  <div class="cfm-slider-label-inner">Slider Slide 2</div>
               </div>
             </a>
           </div>
@@ -35,7 +35,7 @@
           <div class="cfm-slider-inner">
             <a href="#">
               <div class="cfm-slider-label">
-                  <div class="cfm-slider-label-inner">Slider Slide</div>
+                  <div class="cfm-slider-label-inner">Slider Slide 3</div>
               </div>
             </a>
           </div>
@@ -52,7 +52,7 @@
                   <div class="cfm-slider-image-inner"></div>
               </div>
               <div class="cfm-slider-label">
-                  <div class="cfm-slider-label-inner">Slider Thumb</div>
+                  <div class="cfm-slider-label-inner">Slider Thumb 0</div>
               </div>
             </a>
           </div>
@@ -61,7 +61,7 @@
           <div class="cfm-slider-inner">
             <a href="#">
               <div class="cfm-slider-label">
-                  <div class="cfm-slider-label-inner">Slider Thumb</div>
+                  <div class="cfm-slider-label-inner">Slider Thumb 1</div>
               </div>
             </a>
           </div>
@@ -70,7 +70,7 @@
           <div class="cfm-slider-inner">
             <a href="#">
               <div class="cfm-slider-label">
-                  <div class="cfm-slider-label-inner">Slider Thumb</div>
+                  <div class="cfm-slider-label-inner">Slider Thumb 2</div>
               </div>
             </a>
           </div>
@@ -79,7 +79,7 @@
           <div class="cfm-slider-inner">
             <a href="#">
               <div class="cfm-slider-label">
-                  <div class="cfm-slider-label-inner">Slider Thumb</div>
+                  <div class="cfm-slider-label-inner">Slider Thumb 3</div>
               </div>
             </a>
           </div>
@@ -94,42 +94,42 @@
 		<li id="p1">
 			<div class="project-inner">
 				<a href="<?= base_url(); ?>project/p1" data-navigate-to="project/p1">
-					<div class="project-label"><div class="project-label-inner">Featured Project One</div></div>
+					<div class="project-label"><div class="project-label-inner">Featured Project</div></div>
 				</a>
 			</div>
 		</li>
 		<li id="p2">
 			<div class="project-inner">
 				<a href="<?= base_url(); ?>project/p2" data-navigate-to="project/p2">
-					<div class="project-label"><div class="project-label-inner">Featured Project Two</div></div>
+					<div class="project-label"><div class="project-label-inner">Featured Project</div></div>
 				</a>
 			</div>
 		</li>
 		<li id="p3">
 			<div class="project-inner">
 				<a href="<?= base_url(); ?>project/p3" data-navigate-to="project/p3">
-					<div class="project-label"><div class="project-label-inner">Featured Project Three</div></div>
+					<div class="project-label"><div class="project-label-inner">Featured Project</div></div>
 				</a>
 			</div>
 		</li>
 		<li id="p4">
 			<div class="project-inner">
 				<a href="<?= base_url(); ?>project/p4" data-navigate-to="project/p4">
-					<div class="project-label"><div class="project-label-inner">Featured Project Four</div></div>
+					<div class="project-label"><div class="project-label-inner">Featured Project</div></div>
 				</a>
 			</div>
 		</li>
 		<li id="p5">
 			<div class="project-inner">
 				<a href="<?= base_url(); ?>project/p5" data-navigate-to="project/p5" >
-					<div class="project-label"><div class="project-label-inner">Featured Project Five</div></div>
+					<div class="project-label"><div class="project-label-inner">Featured Project</div></div>
 				</a>
 			</div>
 		</li>
 		<li id="p6">
 			<div class="project-inner">
 				<a href="<?= base_url(); ?>project/p6" data-navigate-to="project/p6" >
-					<div class="project-label"><div class="project-label-inner">Featured Project Six</div></div>
+					<div class="project-label"><div class="project-label-inner">Featured Project</div></div>
 				</a>
 			</div>
 		</li>

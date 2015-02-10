@@ -9,6 +9,7 @@
 		margin:0; padding:0;
 
 		@include clearfix();
+		@include prefix(transition, margin-left 1s);
 
 		li{
 			margin:0; padding:0;
@@ -18,6 +19,7 @@
 				padding:1px;
 
 				a{
+					outline:none;
 					display: block;
 	 				padding-bottom:100%;
 	 				background-color: #EEE;
@@ -50,6 +52,14 @@
 						  	vertical-align: middle;
 		 				}
 	 				}
+				}
+			}
+
+			&.active{
+				div.cfm-slider-inner{
+					a{
+						background-color:#DDD;
+					}
 				}
 			}
 		}
