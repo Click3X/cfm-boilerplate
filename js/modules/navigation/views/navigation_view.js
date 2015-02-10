@@ -1,6 +1,6 @@
 define([
   'backbone',
-  'modules/navigation/navigation_button_view'
+  'modules/navigation/views/navigation_button_view'
 ], function(Backbone, NavigationButtonView){
 	var NavigationView = Backbone.View.extend({
 		initialize:function(options){

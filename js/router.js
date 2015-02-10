@@ -6,7 +6,7 @@ define([
   'pages/about_view',
   'pages/people_view',
   'pages/project_view',
-  'modules/navigation/navigation_view'
+  'modules/navigation/views/navigation_view'
 ], function (Backbone, PageCollection, HomeView, WorkView, AboutView, PeopleView, ProjectView, NavigationView){
   var Router   = Backbone.Router.extend({
     initialize:function(){
