@@ -6,7 +6,7 @@
       <ul data-aspectratio=".5625">
         <li data-source="http://placehold.it/900x504">
           <div class="cfm-slider-inner">
-            <a href="#">
+            <a>
               <div class="cfm-slider-label">
                   <div class="cfm-slider-label-inner">Slider Slide 0</div>
               </div>
@@ -15,7 +15,7 @@
         </li>
         <li data-source="http://placehold.it/900x504">
           <div class="cfm-slider-inner">
-            <a href="#">
+            <a>
               <div class="cfm-slider-label">
                   <div class="cfm-slider-label-inner">Slider Slide 1</div>
               </div>
@@ -24,7 +24,7 @@
         </li>
         <li data-source="http://placehold.it/900x504">
           <div class="cfm-slider-inner">
-            <a href="#">
+            <a>
               <div class="cfm-slider-label">
                   <div class="cfm-slider-label-inner">Slider Slide 2</div>
               </div>
@@ -33,7 +33,7 @@
         </li>
         <li data-source="http://placehold.it/900x504">
           <div class="cfm-slider-inner">
-            <a href="#">
+            <a>
               <div class="cfm-slider-label">
                   <div class="cfm-slider-label-inner">Slider Slide 3</div>
               </div>
@@ -41,7 +41,7 @@
           </div>
         </li>
       </ul>
-      <div class="cfm-slider-nav"><a></a><a></a></div>
+      <div class="cfm-slider-nav"><div class="cfm-slider-nav-inner"><a></a><a></a></div></div>
     </div>
     <div class="cfm-slider-thumbs">
       <ul data-aspectratio=".7" data-thumbs-shown="3">
@@ -85,7 +85,7 @@
           </div>
         </li>
       </ul>
-      <div class="cfm-slider-nav"><a></a><a></a></div>
+      <div class="cfm-slider-nav"><div class="cfm-slider-nav-inner"><a></a><a></a></div></div>
     </div>
 </div>
 <!--END SLIDER-->
