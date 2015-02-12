@@ -24,7 +24,7 @@
 
 	 				@media(min-width:$tablet-small){ padding-bottom:80%; }
 	 				@media(min-width:$tablet-large){ padding-bottom:70%; }
-	 				@media(min-width:$desktop){ padding-bottom:56.25%; }
+	 				@media(min-width:$desktop),(max-height:$tablet-small){ padding-bottom:56.25%; }
 	 				@media(min-width:$desktop-large){ padding-bottom:40%; }
 	 				
 	 				&:link,&:visited{
