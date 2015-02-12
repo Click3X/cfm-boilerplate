@@ -3,7 +3,7 @@
 <!--SLIDER-->
 <div id="slider-1" class="cfm-slider" loop>
     <div class="cfm-slider-slides">
-      <ul data-aspectratio=".4">
+      <ul data-aspectratio=".5">
         <li data-source="http://placehold.it/900x504">
           <div class="cfm-slider-inner">
             <a>
@@ -80,7 +80,7 @@
       <div class="cfm-slider-nav"><div class="cfm-slider-nav-inner"><a>&#x3008;</a><a>&#x3009;</a></div></div>
     </div>
     <div class="cfm-slider-thumbs">
-      <ul data-aspectratio="1" data-thumbs-shown="3">
+      <ul data-aspectratio="1" data-thumbs-shown="4">
         <li data-source="http://placehold.it/180x126">
           <div class="cfm-slider-inner">
             <a href="#">
