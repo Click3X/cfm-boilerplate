@@ -3,12 +3,12 @@
 <!--SLIDER-->
 <div id="slider-1" class="cfm-slider" loop>
     <div class="cfm-slider-slides">
-      <ul data-aspectratio=".5">
+      <ul>
         <li data-source="http://placehold.it/900x504">
           <div class="cfm-slider-inner">
             <a>
               <div class="cfm-slider-label">
-                  <div class="cfm-slider-label-inner">Slider Slide 0</div>
+                  <div class="cfm-slider-label-inner">Slide 0</div>
               </div>
             </a>
           </div>
@@ -17,7 +17,7 @@
           <div class="cfm-slider-inner">
             <a>
               <div class="cfm-slider-label">
-                  <div class="cfm-slider-label-inner">Slider Slide 1</div>
+                  <div class="cfm-slider-label-inner">Slide 1</div>
               </div>
             </a>
           </div>
@@ -26,7 +26,7 @@
           <div class="cfm-slider-inner">
             <a>
               <div class="cfm-slider-label">
-                  <div class="cfm-slider-label-inner">Slider Slide 2</div>
+                  <div class="cfm-slider-label-inner">Slide 2</div>
               </div>
             </a>
           </div>
@@ -35,7 +35,7 @@
           <div class="cfm-slider-inner">
             <a>
               <div class="cfm-slider-label">
-                  <div class="cfm-slider-label-inner">Slider Slide 3</div>
+                  <div class="cfm-slider-label-inner">Slide 3</div>
               </div>
             </a>
           </div>
@@ -44,7 +44,7 @@
           <div class="cfm-slider-inner">
             <a>
               <div class="cfm-slider-label">
-                  <div class="cfm-slider-label-inner">Slider Slide 4</div>
+                  <div class="cfm-slider-label-inner">Slide 4</div>
               </div>
             </a>
           </div>
@@ -53,7 +53,7 @@
           <div class="cfm-slider-inner">
             <a>
               <div class="cfm-slider-label">
-                  <div class="cfm-slider-label-inner">Slider Slide 5</div>
+                  <div class="cfm-slider-label-inner">Slide 5</div>
               </div>
             </a>
           </div>
@@ -62,7 +62,7 @@
           <div class="cfm-slider-inner">
             <a>
               <div class="cfm-slider-label">
-                  <div class="cfm-slider-label-inner">Slider Slide 6</div>
+                  <div class="cfm-slider-label-inner">Slide 6</div>
               </div>
             </a>
           </div>
@@ -71,7 +71,7 @@
           <div class="cfm-slider-inner">
             <a>
               <div class="cfm-slider-label">
-                  <div class="cfm-slider-label-inner">Slider Slide 7</div>
+                  <div class="cfm-slider-label-inner">Slide 7</div>
               </div>
             </a>
           </div>
@@ -80,7 +80,7 @@
       <div class="cfm-slider-nav"><div class="cfm-slider-nav-inner"><a>&#x3008;</a><a>&#x3009;</a></div></div>
     </div>
     <div class="cfm-slider-thumbs">
-      <ul data-aspectratio="1" data-thumbs-shown="4">
+      <ul data-thumbs-shown="3">
         <li data-source="http://placehold.it/180x126">
           <div class="cfm-slider-inner">
             <a href="#">
@@ -88,7 +88,7 @@
                   <div class="cfm-slider-image-inner"></div>
               </div>
               <div class="cfm-slider-label">
-                  <div class="cfm-slider-label-inner">Slider Thumb 0</div>
+                  <div class="cfm-slider-label-inner">Thumb 0</div>
               </div>
             </a>
           </div>
@@ -97,7 +97,7 @@
           <div class="cfm-slider-inner">
             <a href="#">
               <div class="cfm-slider-label">
-                  <div class="cfm-slider-label-inner">Slider Thumb 1</div>
+                  <div class="cfm-slider-label-inner">Thumb 1</div>
               </div>
             </a>
           </div>
@@ -106,7 +106,7 @@
           <div class="cfm-slider-inner">
             <a href="#">
               <div class="cfm-slider-label">
-                  <div class="cfm-slider-label-inner">Slider Thumb 2</div>
+                  <div class="cfm-slider-label-inner">Thumb 2</div>
               </div>
             </a>
           </div>
@@ -115,7 +115,7 @@
           <div class="cfm-slider-inner">
             <a href="#">
               <div class="cfm-slider-label">
-                  <div class="cfm-slider-label-inner">Slider Thumb 3</div>
+                  <div class="cfm-slider-label-inner">Thumb 3</div>
               </div>
             </a>
           </div>
@@ -124,7 +124,7 @@
           <div class="cfm-slider-inner">
             <a href="#">
               <div class="cfm-slider-label">
-                  <div class="cfm-slider-label-inner">Slider Thumb 4</div>
+                  <div class="cfm-slider-label-inner">Thumb 4</div>
               </div>
             </a>
           </div>
@@ -133,7 +133,7 @@
           <div class="cfm-slider-inner">
             <a href="#">
               <div class="cfm-slider-label">
-                  <div class="cfm-slider-label-inner">Slider Thumb 5</div>
+                  <div class="cfm-slider-label-inner">Thumb 5</div>
               </div>
             </a>
           </div>
@@ -142,7 +142,7 @@
           <div class="cfm-slider-inner">
             <a href="#">
               <div class="cfm-slider-label">
-                  <div class="cfm-slider-label-inner">Slider Thumb 6</div>
+                  <div class="cfm-slider-label-inner">Thumb 6</div>
               </div>
             </a>
           </div>
@@ -151,7 +151,7 @@
           <div class="cfm-slider-inner">
             <a href="#">
               <div class="cfm-slider-label">
-                  <div class="cfm-slider-label-inner">Slider Thumb 7</div>
+                  <div class="cfm-slider-label-inner">Thumb 7</div>
               </div>
             </a>
           </div>

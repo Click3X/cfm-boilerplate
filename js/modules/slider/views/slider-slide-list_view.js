@@ -12,7 +12,6 @@ define([
 
 			_t.ul_el = this.$el.children("ul")[0];
 			_t.slide_els = $(_t.ul_el).children("li");
-			_t.ar = _t.ul_el.getAttribute("data-aspectratio");
 
 			if(_t.loop){
 
@@ -20,7 +19,7 @@ define([
 
 			_t.slide_els.each(function(i, _el){
 				var slide = new SliderSlideView({
-					id: i, el: _el, ar: _t.ar,
+					id: i, el: _el,
 					slideWidth: (100/_t.slide_els.length) + "%"
 				});
 

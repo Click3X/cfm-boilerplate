@@ -12,10 +12,6 @@ define([
 			_t.group = options.group;
 			_t.el.style.width = options.thumbWidth;
 			_t.a_el = _t.$el.find("a")[0];
-
-			_t.a_el.style.paddingBottom = 100*options.ar + "%";
-
-			console.log(_t.id, _t.group);
 		},
 		onclick:function(e){
 			if(e) e.preventDefault();

@@ -19,7 +19,7 @@ define([
 
 			_t.thumb_els.each(function(i, _el){
 				var thumb = new SliderThumbView({
-					id: i, el: _el, ar: _t.ar,
+					id: i, el: _el,
 					thumbWidth: (100/_t.thumb_els.length) + "%",
 					model:_t.collection.get(i),
 					group:Math.floor(i/_t.thumbs_shown)
