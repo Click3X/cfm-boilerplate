@@ -6,7 +6,6 @@ define([
 			"click a": "onclick"
 		},
 		initialize:function(){
-			console.log("initialize: ","SliderNavView" )
 		},
 		onclick:function(e){
 			this.trigger( $(e.target).index() == 0 ? "backclicked" : "nextclicked" );

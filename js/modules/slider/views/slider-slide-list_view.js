@@ -4,14 +4,19 @@ define([
   'modules/slider/views/slider-nav_view'
 ], function(Backbone, SliderSlideView, SliderNavView){
 	var SliderSlideListView = Backbone.View.extend({
-		initialize:function(){
+		initialize:function(options){
 			var _t = this;
 			_t.views = [];
 
-			_t.ul_el = this.$el.children("ul")[0];
+			if(options.loop) _t.loop = options.loop;
 
+			_t.ul_el = this.$el.children("ul")[0];
 			_t.slide_els = $(_t.ul_el).children("li");
 			_t.ar = _t.ul_el.getAttribute("data-aspectratio");
+
+			if(_t.loop){
+
+			}
 
 			_t.slide_els.each(function(i, _el){
 				var slide = new SliderSlideView({
@@ -55,6 +60,8 @@ define([
 		},
 		scrolltocurrentslide:function(){
 			this.ul_el.style.marginLeft =  -(this.currentslide*100) + "%";
+
+			this.views[this.currentslide].toactivestate();
 		}
 	});
 
