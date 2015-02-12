@@ -1,75 +1,75 @@
 <h2>This is ClickFire Media's Amazing Require, Backbone, CodeIgniter and Sass Boilerplate.</h2>
 <p>Before they sold out Truffaut cronut, meh four dollar toast listicle viral tilde selvage tofu. Blue Bottle iPhone shabby chic pour-over semiotics skateboard, single-origin coffee leggings. Leggings swag fixie craft beer. Banksy freegan roof party mumblecore, VHS cray butcher umami sartorial kitsch Etsy post-ironic locavore. Synth meditation deep v, Brooklyn selvage fingerstache forage freegan XOXO put a bird on it migas normcore artisan farm-to-table hella. Keffiyeh kale chips Echo Park, Intelligentsia master cleanse flannel squid drinking vinegar stumptown roof party. Chillwave American Apparel ethical banjo, umami wolf Banksy banh mi put a bird on it.</p>
 <!--SLIDER-->
-<div id="slider-1" class="cfm-slider" loop>
+<div id="slider-1" class="cfm-slider" loop >
     <div class="cfm-slider-slides">
       <ul>
-        <li data-source="http://placehold.it/900x504">
+        <li data-image="http://placehold.it/1024x1024&text=Slide+0">
           <div class="cfm-slider-inner">
-            <a>
+            <a class="cfm-slider-content">
               <div class="cfm-slider-label">
                   <div class="cfm-slider-label-inner">Slide 0</div>
               </div>
             </a>
           </div>
         </li>
-        <li data-source="http://placehold.it/900x504">
+        <li data-image="http://placehold.it/1024x1024&text=Slide+1">
           <div class="cfm-slider-inner">
-            <a>
+            <a class="cfm-slider-content">
               <div class="cfm-slider-label">
                   <div class="cfm-slider-label-inner">Slide 1</div>
               </div>
             </a>
           </div>
         </li>
-        <li data-source="http://placehold.it/900x504">
+        <li data-image="http://placehold.it/1024x1024&text=Slide+2">
           <div class="cfm-slider-inner">
-            <a>
+            <a class="cfm-slider-content">
               <div class="cfm-slider-label">
                   <div class="cfm-slider-label-inner">Slide 2</div>
               </div>
             </a>
           </div>
         </li>
-        <li data-source="http://placehold.it/900x504">
+        <li data-image="http://placehold.it/1024x1024&text=Slide+3">
           <div class="cfm-slider-inner">
-            <a>
+            <a class="cfm-slider-content">
               <div class="cfm-slider-label">
                   <div class="cfm-slider-label-inner">Slide 3</div>
               </div>
             </a>
           </div>
         </li>
-        <li data-source="http://placehold.it/900x504">
+        <li data-image="http://placehold.it/1024x1024&text=Slide+4">
           <div class="cfm-slider-inner">
-            <a>
+            <a class="cfm-slider-content">
               <div class="cfm-slider-label">
-                  <div class="cfm-slider-label-inner">Slide 4</div>
+                  <div class="cfm-slider-label-inner&text=Slide+0">Slide 4</div>
               </div>
             </a>
           </div>
         </li>
-        <li data-source="http://placehold.it/900x504">
+        <li data-image="http://placehold.it/1024x1024&text=Slide+5">
           <div class="cfm-slider-inner">
-            <a>
+            <a class="cfm-slider-content">
               <div class="cfm-slider-label">
                   <div class="cfm-slider-label-inner">Slide 5</div>
               </div>
             </a>
           </div>
         </li>
-        <li data-source="http://placehold.it/900x504">
+        <li data-image="http://placehold.it/1024x1024&text=Slide+6">
           <div class="cfm-slider-inner">
-            <a>
+            <a class="cfm-slider-content">
               <div class="cfm-slider-label">
                   <div class="cfm-slider-label-inner">Slide 6</div>
               </div>
             </a>
           </div>
         </li>
-        <li data-source="http://placehold.it/900x504">
+        <li data-image="http://placehold.it/1024x1024&text=Slide+7">
           <div class="cfm-slider-inner">
-            <a>
+            <a class="cfm-slider-content">
               <div class="cfm-slider-label">
                   <div class="cfm-slider-label-inner">Slide 7</div>
               </div>
@@ -81,9 +81,9 @@
     </div>
     <div class="cfm-slider-thumbs">
       <ul data-thumbs-shown="3">
-        <li data-source="http://placehold.it/180x126">
+        <li data-image="http://placehold.it/320x320&text=Thumb+1">
           <div class="cfm-slider-inner">
-            <a href="#">
+            <a href="#" class="cfm-slider-content">
               <div class="cfm-slider-image">
                   <div class="cfm-slider-image-inner"></div>
               </div>
@@ -93,63 +93,63 @@
             </a>
           </div>
         </li>
-        <li data-source="http://placehold.it/180x126">
+        <li data-image="http://placehold.it/320x320&text=Thumb+1">
           <div class="cfm-slider-inner">
-            <a href="#">
+            <a href="#" class="cfm-slider-content">
               <div class="cfm-slider-label">
                   <div class="cfm-slider-label-inner">Thumb 1</div>
               </div>
             </a>
           </div>
         </li>
-        <li data-source="http://placehold.it/180x126">
+        <li data-image="http://placehold.it/320x320&text=Thumb+2">
           <div class="cfm-slider-inner">
-            <a href="#">
+            <a href="#" class="cfm-slider-content">
               <div class="cfm-slider-label">
                   <div class="cfm-slider-label-inner">Thumb 2</div>
               </div>
             </a>
           </div>
         </li>
-        <li data-source="http://placehold.it/180x126">
+        <li data-image="http://placehold.it/320x320&text=Thumb+3">
           <div class="cfm-slider-inner">
-            <a href="#">
+            <a href="#" class="cfm-slider-content">
               <div class="cfm-slider-label">
                   <div class="cfm-slider-label-inner">Thumb 3</div>
               </div>
             </a>
           </div>
         </li>
-        <li data-source="http://placehold.it/180x126">
+        <li data-image="http://placehold.it/320x320&text=Thumb+4">
           <div class="cfm-slider-inner">
-            <a href="#">
+            <a href="#" class="cfm-slider-content">
               <div class="cfm-slider-label">
                   <div class="cfm-slider-label-inner">Thumb 4</div>
               </div>
             </a>
           </div>
         </li>
-        <li data-source="http://placehold.it/180x126">
+        <li data-image="http://placehold.it/320x320&text=Thumb+5">
           <div class="cfm-slider-inner">
-            <a href="#">
+            <a href="#" class="cfm-slider-content">
               <div class="cfm-slider-label">
                   <div class="cfm-slider-label-inner">Thumb 5</div>
               </div>
             </a>
           </div>
         </li>
-        <li data-source="http://placehold.it/180x126">
+        <li data-image="http://placehold.it/320x320&text=Thumb+6">
           <div class="cfm-slider-inner">
-            <a href="#">
+            <a href="#" class="cfm-slider-content">
               <div class="cfm-slider-label">
                   <div class="cfm-slider-label-inner">Thumb 6</div>
               </div>
             </a>
           </div>
         </li>
-        <li data-source="http://placehold.it/180x126">
+        <li data-image="http://placehold.it/320x320&text=Thumb+7">
           <div class="cfm-slider-inner">
-            <a href="#">
+            <a href="#" class="cfm-slider-content">
               <div class="cfm-slider-label">
                   <div class="cfm-slider-label-inner">Thumb 7</div>
               </div>

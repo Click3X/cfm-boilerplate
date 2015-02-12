@@ -13,18 +13,18 @@ define([
 
 			if( _t.$el.children("div.cfm-slider-slides").length > 0 ){
 				_t.slides_view = new SliderSlideListView( { 
-					el:_t.$el.children("div.cfm-slider-slides")[0], 
+					el:_t.$el.children("div.cfm-slider-slides")[ 0 ], 
 					collection:_t.collection,
 					loop:_t.loop });
 			}
 
 			if( _t.$el.children("div.cfm-slider-thumbs").length > 0 ){
 				_t.thumbs_view = new SliderThumbListView( {
-					el:_t.$el.children("div.cfm-slider-thumbs")[0], 
-					collection:_t.collection});
+					el:_t.$el.children("div.cfm-slider-thumbs")[ 0 ], 
+					collection:_t.collection });
 			}
 
-			_t.slides_view.scrolltoslide(0);
+			_t.slides_view.scrolltoslide( 0 );
 		}	
 	});
 

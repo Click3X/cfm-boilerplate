@@ -15,11 +15,12 @@
 			div.cfm-slider-inner{
 				padding:1px;
 
-				a{
+				a.cfm-slider-content{
 					position: relative; display: block; 
 					padding-bottom:100%; 
 					height:0;
-	 				background-color: #EEE;
+	 				background-color: #EEE; background-repeat:no-repeat;
+	 				background-size:cover; background-position:center center;
 
 	 				@media(min-width:$tablet-small){ padding-bottom:56.25%; }
 	 				@media(min-width:$desktop-large){ padding-bottom:40%; }
@@ -32,6 +33,9 @@
 	 				div.cfm-slider-label{
 	 					position: absolute; text-align: center;
 	 					height: 100%; width: 100%;
+	 					opacity: 0;
+
+	 					@include prefix(transition, opacity 300ms);
 
 	 					&:before{
 						 	content: "";
@@ -48,6 +52,12 @@
 		 					display: inline-block;
 						  	vertical-align: middle;
 		 				}
+	 				}
+
+	 				&:hover{
+	 					div.cfm-slider-label{
+	 						opacity: 1;
+	 					}
 	 				}
 				}
 			}
@@ -110,7 +120,7 @@
 	}
 
 	.cfm-slider-thumbs{
-		display: none;
+		// display: none;
 		width: 100%; overflow: hidden;
 		position: relative;
 
@@ -128,8 +138,8 @@
 			}
 		}
 
-		@media( min-width : $tablet-small ){
-			display: block;
-		}
+		// @media( min-width : $tablet-small ){
+		// 	display: block;
+		// }
 	}
 }
