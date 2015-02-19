@@ -7,7 +7,7 @@
 		list-style: none; margin:0; padding:0;
 
 		@include clearfix();
-		@include prefix(transition, margin-left 1s);
+		@include prefix(transition, margin-left 500ms);
 
 		li{
 			margin:0; padding:0; float: left;
@@ -25,7 +25,7 @@
 	 				@media(min-width:$tablet-small){ padding-bottom:80%; }
 	 				@media(min-width:$tablet-large){ padding-bottom:70%; }
 	 				@media(min-width:$desktop){ padding-bottom:56.25%; }
-	 				@media(min-width:$desktop-large),(max-height:$tablet-small){ padding-bottom:40%; }
+	 				@media(min-width:$desktop-large){ padding-bottom:40%; }
 	 				
 	 				&:link,&:visited{
 	 					color: #999;
@@ -37,7 +37,7 @@
 	 					height: 100%; width: 100%;
 	 					opacity: 0;
 
-	 					@include prefix(transition, opacity 300ms);
+	 					@include prefix(transition, opacity 500ms);
 
 	 					&:before{
 						 	content: "";

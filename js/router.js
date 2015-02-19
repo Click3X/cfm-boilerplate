@@ -7,7 +7,7 @@ define([
   'pages/people_view',
   'pages/project_view',
   'modules/navigation/views/navigation_view'
-], function (Backbone, PageCollection, HomeView, WorkView, AboutView, PeopleView, ProjectView, NavigationView){
+], function (Backbone, PageCollection, HomeView, WorkView, AboutView, PeopleView, ProjectView, NavigationView, VideoPlayerView){
   var Router   = Backbone.Router.extend({
     initialize:function(){
       var _t = this;
@@ -15,11 +15,11 @@ define([
       _t.page_collection = new PageCollection();
       
       _t.page_views = [   
-        new HomeView({collection:_t.page_collection}),
-        new WorkView({collection:_t.page_collection}),
-        new AboutView({collection:_t.page_collection}),
-        new PeopleView({collection:_t.page_collection}),
-        new ProjectView({collection:_t.page_collection})
+        new HomeView({ collection:_t.page_collection }),
+        new WorkView({ collection:_t.page_collection }),
+        new AboutView({ collection:_t.page_collection }),
+        new PeopleView({ collection:_t.page_collection }),
+        new ProjectView({ collection:_t.page_collection })
       ];
 
       $("#logo a").click(function(event){
@@ -31,9 +31,7 @@ define([
       _t.navigations = [];
       $(".cfm-navigation").each(function(i, _el){
         var navigation = new NavigationView({
-          id:_el.getAttribute("id"), 
-          el:_el,
-          page_collection:_t.page_collection
+          id:_el.getAttribute("id"), el:_el, page_collection:_t.page_collection
         });
 
         _t.navigations.push(navigation);

@@ -1,8 +1,9 @@
 define([
   'backbone',
   'models/page_model',
-  'modules/slider/views/slider_view'
-], function(Backbone, PageModel, SliderView){
+  'modules/slider/views/slider_view',
+  'modules/videoplayer/views/videoplayer_view'
+], function(Backbone, PageModel, SliderView, VideoPlayerView){
 	var PageView = Backbone.View.extend({
 		el: "#page-container",
 		initialize:function( options ){
@@ -12,8 +13,6 @@ define([
 
 			_t.model = new PageModel( { id:_t.id } );
 			_t.collection.push( _t.model );
-
-			
 
 			_t.model.on( "change:active", function( _model ){
 				if( _model.get("active") == true )
@@ -37,6 +36,7 @@ define([
 		},
 		ready:function(){
 			this.buildsliders();
+			this.buildvideos();
 
 			this.$el.fadeIn(400);
 
@@ -56,6 +56,19 @@ define([
 				} );
 
 				_t.sliders.push( slider );				
+			});
+		},
+		buildvideos:function(){
+			var _t = this;
+
+			_t.videos = [];
+
+			$(".cfm-videoplayer").each( function( i, _el ){
+				var video = new VideoPlayerView( {
+				  id:_el.getAttribute("id"), el:_el, page_collection:_t.page_collection
+				} );
+
+				_t.videos.push( video );
 			});
 		},
 		onready:function(){/*overridden*/},

@@ -1,7 +1,16 @@
 <h2>This is ClickFire Media's Amazing Require, Backbone, CodeIgniter and Sass Boilerplate.</h2>
 <p>Before they sold out Truffaut cronut, meh four dollar toast listicle viral tilde selvage tofu. Blue Bottle iPhone shabby chic pour-over semiotics skateboard, single-origin coffee leggings. Leggings swag fixie craft beer. Banksy freegan roof party mumblecore, VHS cray butcher umami sartorial kitsch Etsy post-ironic locavore. Synth meditation deep v, Brooklyn selvage fingerstache forage freegan XOXO put a bird on it migas normcore artisan farm-to-table hella. Keffiyeh kale chips Echo Park, Intelligentsia master cleanse flannel squid drinking vinegar stumptown roof party. Chillwave American Apparel ethical banjo, umami wolf Banksy banh mi put a bird on it.</p>
+<div class="cfm-videoplayer">
+    <div class="cfm-videoplayer-inner">
+        <div class="cfm-videoplayer-player">
+            <video class="cfm-videoplayer-mobile" width="960" height="540" controls></video>
+            <div class="cfm-videoplayer-poster"><div class="cfm-videoplayer-playbutton"></div></div>
+            <video class="cfm-videoplayer-desktop" width="960" height="540" controls></video>
+        </div>
+    </div>
+</div>
 <!--SLIDER-->
-<div id="slider-1" class="cfm-slider" loop >
+<div id="slider-1" class="cfm-slider" loop>
     <div class="cfm-slider-slides">
       <ul>
         <li data-image="http://placehold.it/1024x1024&text=Slide+0">
